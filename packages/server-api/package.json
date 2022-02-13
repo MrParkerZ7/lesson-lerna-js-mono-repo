@@ -6,7 +6,9 @@
   "scripts": {
     "start": "node index.js",
     "test": "echo testing api",
-    "info": "echo js-express api"
+    "info": "echo js-express api",
+    "clean": "npx lerna clean -y",
+    "bootstrap": "npx lerna bootstrap --hoist"
   },
   "keywords": [],
   "author": "",

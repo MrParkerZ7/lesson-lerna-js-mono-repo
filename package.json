@@ -6,13 +6,13 @@
     "lerna": "^4.0.0"
   },
   "scripts": {
-    "install": "lerna run install",
     "start": "lerna run start",
     "test": "lerna run test",
-    "info:react:express": "lerna run info --scope={web-client,server-api}",
-    "info:client": "lerna run info --scope=web-client",
+    "diff": "lerna diff",
+    "clean": "rimraf node_modules && lerna clean -y",
+    "bootstrap": "lerna bootstrap",
     "new-version": "lerna version --convertional-commit --yes",
-    "clean": "npx lerna clean -y",
-    "boots": "npx lerna bootstrap --hoist"
+    "info:react:express": "lerna run info --scope={web-client,server-api}",
+    "info:client": "lerna run info --scope=web-client"
   }
 }

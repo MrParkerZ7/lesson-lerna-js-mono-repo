@@ -16,7 +16,9 @@
     "build": "react-scripts build",
     "test": "echo testing client",
     "eject": "react-scripts eject",
-    "info": "echo js-react client"
+    "info": "echo js-react client",
+    "clean": "npx lerna clean -y",
+    "bootstrap": "npx lerna bootstrap --hoist"
   },
   "eslintConfig": {
     "extends": [

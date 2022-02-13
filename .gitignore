@@ -56,3 +56,4 @@ package-lock.json
 # sitemap
 /public/*.xml
 /public/*.debug
+yarn.lock
