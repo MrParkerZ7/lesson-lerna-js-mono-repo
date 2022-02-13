@@ -1,0 +1,58 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+#security
+.npmrc
+
+# dependencies
+**/node_modules/**
+/.pnp
+.pnp.js
+
+# testing
+coverage/
+cypress/screenshots/
+
+# next.js
+/.next/
+/out/
+next-env.d.ts
+
+# production
+/build
+/private/
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env*.local
+!.env.cmd.local
+# vercel
+.vercel
+
+# pwa
+.env
+
+**/public/precache.*.*.js
+**/public/sw.js
+**/public/workbox-*.js
+**/public/worker-*.js
+**/public/precache.*.*.js.map
+**/public/sw.js.map
+**/public/workbox-*.js.map
+**/public/worker-*.js.map
+
+# editor
+.vscode/
+.idea/
+.temp/
+package-lock.json
+
+# sitemap
+/public/*.xml
+/public/*.debug
