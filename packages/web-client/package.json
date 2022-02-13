@@ -15,7 +15,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "echo testing client",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "info": "echo js-react client"
   },
   "eslintConfig": {
     "extends": [
